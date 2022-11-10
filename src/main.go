@@ -1,37 +1,51 @@
 package main
 
 import (
-	"flag"
+	"bytes"
 	"fmt"
+	"github.com/spf13/viper"
+	_ "github.com/spf13/viper"
+	"io"
 	"os"
-	"regexp"
 	"strings"
 )
 
-func main() {
-	network := flag.String("n", "", "network name.")
-	filePath := flag.String("p", "", "file path.")
-	flag.Parse()
+// ParseConfigBuffer reads config from a generic Reader.
+func ParseConfigBuffer(in io.Reader, format string) (string, bool) {
 
-	bytes, err := os.ReadFile(*filePath)
-	if err != nil {
-		fmt.Println("Error in resolving ", err)
-	}
-	outerRegex := regexp.MustCompile(fmt.Sprintf(`\[%s\]\ndefaultFactoryAddress = \".*\"\n`, *network))
-	innerRegex := regexp.MustCompile(`defaultFactoryAddress = .*`)
-	matchedOuter := outerRegex.FindAllSubmatch(bytes, -1)
-	for i := 0; i < len(matchedOuter); i++ {
-		var innerSentence string
-		for j := 0; j < len(matchedOuter[i]); j++ {
-			innerSentence += string(matchedOuter[i][j])
+	viper.SetConfigType(format)
+	err := viper.ReadConfig(in)
+	if err == nil {
+		var factoryState *FactoryState
+		err = viper.Unmarshal(&factoryState)
+		if &factoryState.Dev != nil && factoryState.Dev.DefaultFactoryAddress != "" {
+			return factoryState.Dev.DefaultFactoryAddress, true
 		}
-		matchedInner := innerRegex.FindAllSubmatch([]byte(innerSentence), -1)
-		tempResult := matchedInner[0]
-		var sentence string
-		for j := 0; j < len(tempResult); j++ {
-			sentence += string(tempResult[j])
-		}
-		splitBySpace := strings.Split(sentence, " ")
-		fmt.Printf("%s", splitBySpace[len(splitBySpace)-1])
 	}
+	return "", false
+}
+
+// ParseConfigFile reads the file using Viper.
+func ParseConfigFile(configFileName string) (string, bool) {
+	components := strings.Split(configFileName, ".")
+	format := components[len(components)-1]
+
+	file, err := os.Open(configFileName)
+	if err == nil {
+		configBuffer := make([]byte, 10240)
+		sz, err := file.Read(configBuffer)
+		if err == nil {
+			return ParseConfigBuffer(bytes.NewBuffer(configBuffer[:sz]), format)
+		}
+	}
+	return "", false
+}
+
+func main() {
+	factoryAddress, isFound := ParseConfigFile("factoryState.toml")
+	if !isFound {
+		fmt.Println("dev default factory address not found")
+	}
+	fmt.Println("Factory Address :", factoryAddress)
+
 }

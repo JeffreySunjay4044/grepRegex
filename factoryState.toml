@@ -1,0 +1,1234 @@
+[dev]
+defaultFactoryAddress = "0x562E7F70E38B493CE0Ff0087663B230D7454a342"
+
+[dev.defaultFactoryData]
+address = "0x562E7F70E38B493CE0Ff0087663B230D7454a342"
+owner = "0x546F99F244b7B58B855330AE0E2BC1b30b41302F"
+
+[dev.defaultFactoryData.gas]
+type = "BigNumber"
+hex = "0x2b2ae3"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "ATokenBurner"
+logicAddress = "0x70fB70f6AE5442998945504ef74Fd056e351Cca4"
+salt = "0x41546f6b656e4275726e65720000000000000000000000000000000000000000"
+proxyAddress = "0x75E39fEEa676DBAe11Da1Ab5452510c04eC35FA2"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x07404c"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "ATokenMinter"
+logicAddress = "0x937eA0489B23C6200452Bb80916D4A8C76E77198"
+salt = "0x41546f6b656e4d696e7465720000000000000000000000000000000000000000"
+proxyAddress = "0xb95e07ae46Fa2274cAd21b989b00FC0913749403"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x06af94"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "Distribution"
+logicAddress = "0x0f49D21347Ed9790C08035D2f0A7C3869F6BD193"
+salt = "0x446973747269627574696f6e0000000000000000000000000000000000000000"
+proxyAddress = "0x0200855f9FdB1bE7aB1A945D65d1cF35eDa0Bed2"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x09b81a"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "Dynamics"
+logicAddress = "0xEA9C85866560b45999C90A22c512F1Ed0f9522d2"
+salt = "0x44796e616d696373000000000000000000000000000000000000000000000000"
+proxyAddress = "0x7594465457d6b870039543345210A602E9f2d299"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x22c887"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "Foundation"
+logicAddress = "0x121E135F28eFa3D8353cb817d059c8b4B20919af"
+salt = "0x466f756e646174696f6e00000000000000000000000000000000000000000000"
+proxyAddress = "0x0b094A44994b28f21a7068BA104C192643B42439"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x0bc9ee"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "Governance"
+logicAddress = "0x212b6aB387e71B314c2EC7Dff858fA25df11a597"
+salt = "0x476f7665726e616e636500000000000000000000000000000000000000000000"
+proxyAddress = "0x9cd25e05b55BD08B22c4302D542a30BD5273aB97"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x04edc7"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "InvalidTxConsumptionAccusation"
+logicAddress = "0x22CBeFD039c103Be9ebc2A2CB3bDd35936d9459d"
+salt = "0x496e76616c69645478436f6e73756d7074696f6e41636375736174696f6e0000"
+proxyAddress = "0x2C37fAC6241D6A96106E2777820C7EEd4Bef3776"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x2d3d63"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "LiquidityProviderStaking"
+logicAddress = "0x0B3B4042191466698fdD2e3909B5dD23277097B2"
+salt = "0x4c697175696469747950726f76696465725374616b696e670000000000000000"
+proxyAddress = "0xE426557C98f5A75bcBA6A8a677e6848E81a4e833"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x47bea2"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "MultipleProposalAccusation"
+logicAddress = "0x695CeA932dA3DC42620b4919eC33Bf0972184E0E"
+salt = "0x4d756c7469706c6550726f706f73616c41636375736174696f6e000000000000"
+proxyAddress = "0x26AFe9e5536A6102c43fEd6Be329734e70437198"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x16ba5b"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "PublicStaking"
+logicAddress = "0x0e44abf07869E55b722f35dBe5AcAe98D28cDceD"
+salt = "0x5075626c69635374616b696e6700000000000000000000000000000000000000"
+proxyAddress = "0x0F27E1c790d776CE13eF852623E2Bc6AcE1b9d4B"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x47bd82"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "Snapshots"
+logicAddress = "0xCDf9c9A15370554f37E979132a6577Caab0CfC62"
+salt = "0x536e617073686f74730000000000000000000000000000000000000000000000"
+proxyAddress = "0x0418C73320d1Bc86fad09f7125250Af3aD2c29eF"
+initCallData = "0x3ecc0f5e000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000028"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x37b7b3"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "StakingPositionDescriptor"
+logicAddress = "0xbf41f40EE403E9A96bb0c9BBFa42864DDBc01761"
+salt = "0x5374616b696e67506f736974696f6e44657363726970746f7200000000000000"
+proxyAddress = "0x70a8944A142A03fC62889B6206c801b171Ade659"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x12e454"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "ValidatorPool"
+logicAddress = "0x13a6c1Bf27Ad6Cf4BE60fD90F4bfDae15b5eD473"
+salt = "0x56616c696461746f72506f6f6c00000000000000000000000000000000000000"
+proxyAddress = "0x5D48E7935F895c1dC92c19F160Ef54e5C735EDA8"
+initCallData = "0x60a2da440000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000002000"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x4a03ea"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "ValidatorStaking"
+logicAddress = "0x10b03101afd72eBb1E2ca25F577e24C38Acea5D2"
+salt = "0x56616c696461746f725374616b696e6700000000000000000000000000000000"
+proxyAddress = "0xe37c14a34907f8Fcb99243AaeC4842FBb1ce1965"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x49fa4e"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "ETHDKGAccusations"
+logicAddress = "0xE13CC1eb8a5144410BE533e01542794825321996"
+salt = "0x455448444b4741636375736174696f6e73000000000000000000000000000000"
+proxyAddress = "0x167Eb24B7b51f9322a4A2EfCC849310550BE86cD"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x46101d"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "ETHDKGPhases"
+logicAddress = "0xe88944390968569624690a6A33d845602F46600B"
+salt = "0x455448444b475068617365730000000000000000000000000000000000000000"
+proxyAddress = "0xb701ce9AaF414Beb3Ed11422eEa6D1f08c5e995f"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x367686"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "ETHDKG"
+logicAddress = "0xD15572E6E3C08EB09DD7fE90Ef6A22cDb011ec4A"
+salt = "0x455448444b470000000000000000000000000000000000000000000000000000"
+proxyAddress = "0x9a757acedE2bD60bd09b57163595078636c2bC36"
+initCallData = "0xe4a3011600000000000000000000000000000000000000000000000000000000000000280000000000000000000000000000000000000000000000000000000000000006"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x3668bf"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "ATokenBurner"
+logicAddress = "0x03Da39dcd8b958f4977ca18B38Afc2E4137B6a7e"
+salt = "0x41546f6b656e4275726e65720000000000000000000000000000000000000000"
+proxyAddress = "0xF472346C6F3e2404053e79923D74D39a82d8d9f6"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x07404c"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "ATokenMinter"
+logicAddress = "0xCEAC05D64704f99E2c1a52548893db849CDCC76F"
+salt = "0x41546f6b656e4d696e7465720000000000000000000000000000000000000000"
+proxyAddress = "0xe79a197120c69c65d2BD1961E4619937E22f1e77"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x06af94"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "Distribution"
+logicAddress = "0x8EC9f2be3268dC6eD9168d7C8e3f237890ce6AAd"
+salt = "0x446973747269627574696f6e0000000000000000000000000000000000000000"
+proxyAddress = "0x26085c2e63d6e439DEFa809Cf8b21b8DC66F2354"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x09b81a"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "Dynamics"
+logicAddress = "0x9e51d81429347859115c519bc5fa027A34D11aBB"
+salt = "0x44796e616d696373000000000000000000000000000000000000000000000000"
+proxyAddress = "0x5fff82cEB38bb63E1BA3C585A31361259478449d"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x22c887"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "Foundation"
+logicAddress = "0x5469B1d983d43F128522321e778C7233Df87bb58"
+salt = "0x466f756e646174696f6e00000000000000000000000000000000000000000000"
+proxyAddress = "0x401926BB0991e1501587Db0A6333d323FaF4Aa99"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x0bc9ee"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "Governance"
+logicAddress = "0xA2bb866b211D35b15B8a479FD640bD99BA87d775"
+salt = "0x476f7665726e616e636500000000000000000000000000000000000000000000"
+proxyAddress = "0xeCdEeac804a9Aec65a00ce966BF3527350141963"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x04edc7"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "InvalidTxConsumptionAccusation"
+logicAddress = "0x4ebFd8fAf42e4e2C47E600cf6A204E4c78b3a46F"
+salt = "0x496e76616c69645478436f6e73756d7074696f6e41636375736174696f6e0000"
+proxyAddress = "0xC6f479ceDF3C7BE7963C0B532135a8618db61904"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x2d3d57"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "LiquidityProviderStaking"
+logicAddress = "0x37865054e749B450a306F597c3e142719AF9aA5b"
+salt = "0x4c697175696469747950726f76696465725374616b696e670000000000000000"
+proxyAddress = "0xA2463b1eF5cd9Fe48B23C3cb38311F1Ac21D2679"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x47bea2"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "MultipleProposalAccusation"
+logicAddress = "0xBa62565884C7faf484CEd333fe62F678fe0F8092"
+salt = "0x4d756c7469706c6550726f706f73616c41636375736174696f6e000000000000"
+proxyAddress = "0xBc9d6EbfdD566b8D8dD1CA09CC8cE6b07dd3dec6"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x16ba5b"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "PublicStaking"
+logicAddress = "0xd35DCBBffF0A54bB1eBc48d045cDA9e47bA2Ab50"
+salt = "0x5075626c69635374616b696e6700000000000000000000000000000000000000"
+proxyAddress = "0xb14d1EEc00375795C2B14c2Ec420f01a302E9C96"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x47bd82"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "Snapshots"
+logicAddress = "0x81877FD282c951305B1D391b885B6fcbb3Bd9038"
+salt = "0x536e617073686f74730000000000000000000000000000000000000000000000"
+proxyAddress = "0x650e19c31a0dA630A39F5B23fAC14FA3442cCFaA"
+initCallData = "0x3ecc0f5e000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000028"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x37b7b3"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "StakingPositionDescriptor"
+logicAddress = "0xD93F462eaaC63D6E4D2b801A04c372525d0148c0"
+salt = "0x5374616b696e67506f736974696f6e44657363726970746f7200000000000000"
+proxyAddress = "0x050C0d960fca3887C04B412F4E12Ce1A8DB5f773"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x12e454"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "ValidatorPool"
+logicAddress = "0x988515a1F354AcEacD1f68bB1B6CdA735C37773A"
+salt = "0x56616c696461746f72506f6f6c00000000000000000000000000000000000000"
+proxyAddress = "0x84ED38E691EB57e6D2589d39b96AD81A9d5b0918"
+initCallData = "0x60a2da440000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000002000"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x4a03ea"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "ValidatorStaking"
+logicAddress = "0xf51f6A663c18E46879379a542F5EB87dD885F1A5"
+salt = "0x56616c696461746f725374616b696e6700000000000000000000000000000000"
+proxyAddress = "0xBE95A604BfB26Ff8D278F07fBe01D9648Ab3dcae"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x49fa4e"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "ETHDKGAccusations"
+logicAddress = "0x32f1023c03038Fbe2f172f6a4cDefFCCCDE47e3F"
+salt = "0x455448444b4741636375736174696f6e73000000000000000000000000000000"
+proxyAddress = "0x7fD7763925Ad54508fE1712738243F967d28321e"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x46101d"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "ETHDKGPhases"
+logicAddress = "0x2c62Da8ab6440A1B5097115000F346c9Db9D7D9C"
+salt = "0x455448444b475068617365730000000000000000000000000000000000000000"
+proxyAddress = "0xD62c37E0a4eBDEEdAF15EFB3E91Aa88B5a83fC75"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x36767a"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "ETHDKG"
+logicAddress = "0xd2b96E0196131140fE7693d9F3A076dEBF877c4f"
+salt = "0x455448444b470000000000000000000000000000000000000000000000000000"
+proxyAddress = "0xBb038eB3cCFc31F067962075b690ebCbAAE6E2Ad"
+initCallData = "0xe4a3011600000000000000000000000000000000000000000000000000000000000000280000000000000000000000000000000000000000000000000000000000000006"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x3668bf"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "ATokenBurner"
+logicAddress = "0x70fB70f6AE5442998945504ef74Fd056e351Cca4"
+salt = "0x41546f6b656e4275726e65720000000000000000000000000000000000000000"
+proxyAddress = "0x75E39fEEa676DBAe11Da1Ab5452510c04eC35FA2"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x07404c"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "ATokenMinter"
+logicAddress = "0x937eA0489B23C6200452Bb80916D4A8C76E77198"
+salt = "0x41546f6b656e4d696e7465720000000000000000000000000000000000000000"
+proxyAddress = "0xb95e07ae46Fa2274cAd21b989b00FC0913749403"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x06af94"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "Distribution"
+logicAddress = "0x0f49D21347Ed9790C08035D2f0A7C3869F6BD193"
+salt = "0x446973747269627574696f6e0000000000000000000000000000000000000000"
+proxyAddress = "0x0200855f9FdB1bE7aB1A945D65d1cF35eDa0Bed2"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x09b81a"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "Dynamics"
+logicAddress = "0xEA9C85866560b45999C90A22c512F1Ed0f9522d2"
+salt = "0x44796e616d696373000000000000000000000000000000000000000000000000"
+proxyAddress = "0x7594465457d6b870039543345210A602E9f2d299"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x22c887"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "Foundation"
+logicAddress = "0x121E135F28eFa3D8353cb817d059c8b4B20919af"
+salt = "0x466f756e646174696f6e00000000000000000000000000000000000000000000"
+proxyAddress = "0x0b094A44994b28f21a7068BA104C192643B42439"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x0bc9ee"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "Governance"
+logicAddress = "0x212b6aB387e71B314c2EC7Dff858fA25df11a597"
+salt = "0x476f7665726e616e636500000000000000000000000000000000000000000000"
+proxyAddress = "0x9cd25e05b55BD08B22c4302D542a30BD5273aB97"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x04edc7"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "InvalidTxConsumptionAccusation"
+logicAddress = "0x22CBeFD039c103Be9ebc2A2CB3bDd35936d9459d"
+salt = "0x496e76616c69645478436f6e73756d7074696f6e41636375736174696f6e0000"
+proxyAddress = "0x2C37fAC6241D6A96106E2777820C7EEd4Bef3776"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x2d3d63"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "LiquidityProviderStaking"
+logicAddress = "0x0B3B4042191466698fdD2e3909B5dD23277097B2"
+salt = "0x4c697175696469747950726f76696465725374616b696e670000000000000000"
+proxyAddress = "0xE426557C98f5A75bcBA6A8a677e6848E81a4e833"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x47bea2"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "MultipleProposalAccusation"
+logicAddress = "0x695CeA932dA3DC42620b4919eC33Bf0972184E0E"
+salt = "0x4d756c7469706c6550726f706f73616c41636375736174696f6e000000000000"
+proxyAddress = "0x26AFe9e5536A6102c43fEd6Be329734e70437198"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x16ba5b"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "PublicStaking"
+logicAddress = "0x0e44abf07869E55b722f35dBe5AcAe98D28cDceD"
+salt = "0x5075626c69635374616b696e6700000000000000000000000000000000000000"
+proxyAddress = "0x0F27E1c790d776CE13eF852623E2Bc6AcE1b9d4B"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x47bd82"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "Snapshots"
+logicAddress = "0xCDf9c9A15370554f37E979132a6577Caab0CfC62"
+salt = "0x536e617073686f74730000000000000000000000000000000000000000000000"
+proxyAddress = "0x0418C73320d1Bc86fad09f7125250Af3aD2c29eF"
+initCallData = "0x3ecc0f5e000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000028"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x37b7b3"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "StakingPositionDescriptor"
+logicAddress = "0xbf41f40EE403E9A96bb0c9BBFa42864DDBc01761"
+salt = "0x5374616b696e67506f736974696f6e44657363726970746f7200000000000000"
+proxyAddress = "0x70a8944A142A03fC62889B6206c801b171Ade659"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x12e454"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "ValidatorPool"
+logicAddress = "0x13a6c1Bf27Ad6Cf4BE60fD90F4bfDae15b5eD473"
+salt = "0x56616c696461746f72506f6f6c00000000000000000000000000000000000000"
+proxyAddress = "0x5D48E7935F895c1dC92c19F160Ef54e5C735EDA8"
+initCallData = "0x60a2da440000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000002000"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x4a03ea"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "ValidatorStaking"
+logicAddress = "0x10b03101afd72eBb1E2ca25F577e24C38Acea5D2"
+salt = "0x56616c696461746f725374616b696e6700000000000000000000000000000000"
+proxyAddress = "0xe37c14a34907f8Fcb99243AaeC4842FBb1ce1965"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x49fa4e"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "ETHDKGAccusations"
+logicAddress = "0xE13CC1eb8a5144410BE533e01542794825321996"
+salt = "0x455448444b4741636375736174696f6e73000000000000000000000000000000"
+proxyAddress = "0x167Eb24B7b51f9322a4A2EfCC849310550BE86cD"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x46101d"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "ETHDKGPhases"
+logicAddress = "0xe88944390968569624690a6A33d845602F46600B"
+salt = "0x455448444b475068617365730000000000000000000000000000000000000000"
+proxyAddress = "0xb701ce9AaF414Beb3Ed11422eEa6D1f08c5e995f"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x367686"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "ETHDKG"
+logicAddress = "0xD15572E6E3C08EB09DD7fE90Ef6A22cDb011ec4A"
+salt = "0x455448444b470000000000000000000000000000000000000000000000000000"
+proxyAddress = "0x9a757acedE2bD60bd09b57163595078636c2bC36"
+initCallData = "0xe4a3011600000000000000000000000000000000000000000000000000000000000000280000000000000000000000000000000000000000000000000000000000000006"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x3668bf"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "ATokenBurner"
+logicAddress = "0x70fB70f6AE5442998945504ef74Fd056e351Cca4"
+salt = "0x41546f6b656e4275726e65720000000000000000000000000000000000000000"
+proxyAddress = "0x75E39fEEa676DBAe11Da1Ab5452510c04eC35FA2"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x07404c"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "ATokenMinter"
+logicAddress = "0x937eA0489B23C6200452Bb80916D4A8C76E77198"
+salt = "0x41546f6b656e4d696e7465720000000000000000000000000000000000000000"
+proxyAddress = "0xb95e07ae46Fa2274cAd21b989b00FC0913749403"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x06af94"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "Distribution"
+logicAddress = "0x0f49D21347Ed9790C08035D2f0A7C3869F6BD193"
+salt = "0x446973747269627574696f6e0000000000000000000000000000000000000000"
+proxyAddress = "0x0200855f9FdB1bE7aB1A945D65d1cF35eDa0Bed2"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x09b81a"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "Dynamics"
+logicAddress = "0xEA9C85866560b45999C90A22c512F1Ed0f9522d2"
+salt = "0x44796e616d696373000000000000000000000000000000000000000000000000"
+proxyAddress = "0x7594465457d6b870039543345210A602E9f2d299"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x22c887"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "Foundation"
+logicAddress = "0x121E135F28eFa3D8353cb817d059c8b4B20919af"
+salt = "0x466f756e646174696f6e00000000000000000000000000000000000000000000"
+proxyAddress = "0x0b094A44994b28f21a7068BA104C192643B42439"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x0bc9ee"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "Governance"
+logicAddress = "0x212b6aB387e71B314c2EC7Dff858fA25df11a597"
+salt = "0x476f7665726e616e636500000000000000000000000000000000000000000000"
+proxyAddress = "0x9cd25e05b55BD08B22c4302D542a30BD5273aB97"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x04edc7"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "InvalidTxConsumptionAccusation"
+logicAddress = "0x22CBeFD039c103Be9ebc2A2CB3bDd35936d9459d"
+salt = "0x496e76616c69645478436f6e73756d7074696f6e41636375736174696f6e0000"
+proxyAddress = "0x2C37fAC6241D6A96106E2777820C7EEd4Bef3776"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x2d3d63"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "LiquidityProviderStaking"
+logicAddress = "0x0B3B4042191466698fdD2e3909B5dD23277097B2"
+salt = "0x4c697175696469747950726f76696465725374616b696e670000000000000000"
+proxyAddress = "0xE426557C98f5A75bcBA6A8a677e6848E81a4e833"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x47bea2"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "MultipleProposalAccusation"
+logicAddress = "0x695CeA932dA3DC42620b4919eC33Bf0972184E0E"
+salt = "0x4d756c7469706c6550726f706f73616c41636375736174696f6e000000000000"
+proxyAddress = "0x26AFe9e5536A6102c43fEd6Be329734e70437198"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x16ba5b"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "PublicStaking"
+logicAddress = "0x0e44abf07869E55b722f35dBe5AcAe98D28cDceD"
+salt = "0x5075626c69635374616b696e6700000000000000000000000000000000000000"
+proxyAddress = "0x0F27E1c790d776CE13eF852623E2Bc6AcE1b9d4B"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x47bd82"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "Snapshots"
+logicAddress = "0xCDf9c9A15370554f37E979132a6577Caab0CfC62"
+salt = "0x536e617073686f74730000000000000000000000000000000000000000000000"
+proxyAddress = "0x0418C73320d1Bc86fad09f7125250Af3aD2c29eF"
+initCallData = "0x3ecc0f5e000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000028"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x37b7b3"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "StakingPositionDescriptor"
+logicAddress = "0xbf41f40EE403E9A96bb0c9BBFa42864DDBc01761"
+salt = "0x5374616b696e67506f736974696f6e44657363726970746f7200000000000000"
+proxyAddress = "0x70a8944A142A03fC62889B6206c801b171Ade659"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x12e454"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "ValidatorPool"
+logicAddress = "0x13a6c1Bf27Ad6Cf4BE60fD90F4bfDae15b5eD473"
+salt = "0x56616c696461746f72506f6f6c00000000000000000000000000000000000000"
+proxyAddress = "0x5D48E7935F895c1dC92c19F160Ef54e5C735EDA8"
+initCallData = "0x60a2da440000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000002000"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x4a03ea"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "ValidatorStaking"
+logicAddress = "0x10b03101afd72eBb1E2ca25F577e24C38Acea5D2"
+salt = "0x56616c696461746f725374616b696e6700000000000000000000000000000000"
+proxyAddress = "0xe37c14a34907f8Fcb99243AaeC4842FBb1ce1965"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x49fa4e"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "ETHDKGAccusations"
+logicAddress = "0xE13CC1eb8a5144410BE533e01542794825321996"
+salt = "0x455448444b4741636375736174696f6e73000000000000000000000000000000"
+proxyAddress = "0x167Eb24B7b51f9322a4A2EfCC849310550BE86cD"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x46101d"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "ETHDKGPhases"
+logicAddress = "0xe88944390968569624690a6A33d845602F46600B"
+salt = "0x455448444b475068617365730000000000000000000000000000000000000000"
+proxyAddress = "0xb701ce9AaF414Beb3Ed11422eEa6D1f08c5e995f"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x367686"
+
+[[dev.proxies]]
+factoryAddress = "0x0b1F9c2b7bED6Db83295c7B5158E3806d67eC5bc"
+logicName = "ETHDKG"
+logicAddress = "0xD15572E6E3C08EB09DD7fE90Ef6A22cDb011ec4A"
+salt = "0x455448444b470000000000000000000000000000000000000000000000000000"
+proxyAddress = "0x9a757acedE2bD60bd09b57163595078636c2bC36"
+initCallData = "0xe4a3011600000000000000000000000000000000000000000000000000000000000000280000000000000000000000000000000000000000000000000000000000000006"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x3668bf"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "ATokenBurner"
+logicAddress = "0x03Da39dcd8b958f4977ca18B38Afc2E4137B6a7e"
+salt = "0x41546f6b656e4275726e65720000000000000000000000000000000000000000"
+proxyAddress = "0xF472346C6F3e2404053e79923D74D39a82d8d9f6"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x07404c"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "ATokenMinter"
+logicAddress = "0xCEAC05D64704f99E2c1a52548893db849CDCC76F"
+salt = "0x41546f6b656e4d696e7465720000000000000000000000000000000000000000"
+proxyAddress = "0xe79a197120c69c65d2BD1961E4619937E22f1e77"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x06af94"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "Distribution"
+logicAddress = "0x8EC9f2be3268dC6eD9168d7C8e3f237890ce6AAd"
+salt = "0x446973747269627574696f6e0000000000000000000000000000000000000000"
+proxyAddress = "0x26085c2e63d6e439DEFa809Cf8b21b8DC66F2354"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x09b81a"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "Dynamics"
+logicAddress = "0x9e51d81429347859115c519bc5fa027A34D11aBB"
+salt = "0x44796e616d696373000000000000000000000000000000000000000000000000"
+proxyAddress = "0x5fff82cEB38bb63E1BA3C585A31361259478449d"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x22c887"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "Foundation"
+logicAddress = "0x5469B1d983d43F128522321e778C7233Df87bb58"
+salt = "0x466f756e646174696f6e00000000000000000000000000000000000000000000"
+proxyAddress = "0x401926BB0991e1501587Db0A6333d323FaF4Aa99"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x0bc9ee"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "Governance"
+logicAddress = "0xA2bb866b211D35b15B8a479FD640bD99BA87d775"
+salt = "0x476f7665726e616e636500000000000000000000000000000000000000000000"
+proxyAddress = "0xeCdEeac804a9Aec65a00ce966BF3527350141963"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x04edc7"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "InvalidTxConsumptionAccusation"
+logicAddress = "0x4ebFd8fAf42e4e2C47E600cf6A204E4c78b3a46F"
+salt = "0x496e76616c69645478436f6e73756d7074696f6e41636375736174696f6e0000"
+proxyAddress = "0xC6f479ceDF3C7BE7963C0B532135a8618db61904"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x2d3d57"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "LiquidityProviderStaking"
+logicAddress = "0x37865054e749B450a306F597c3e142719AF9aA5b"
+salt = "0x4c697175696469747950726f76696465725374616b696e670000000000000000"
+proxyAddress = "0xA2463b1eF5cd9Fe48B23C3cb38311F1Ac21D2679"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x47bea2"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "MultipleProposalAccusation"
+logicAddress = "0xBa62565884C7faf484CEd333fe62F678fe0F8092"
+salt = "0x4d756c7469706c6550726f706f73616c41636375736174696f6e000000000000"
+proxyAddress = "0xBc9d6EbfdD566b8D8dD1CA09CC8cE6b07dd3dec6"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x16ba5b"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "PublicStaking"
+logicAddress = "0xd35DCBBffF0A54bB1eBc48d045cDA9e47bA2Ab50"
+salt = "0x5075626c69635374616b696e6700000000000000000000000000000000000000"
+proxyAddress = "0xb14d1EEc00375795C2B14c2Ec420f01a302E9C96"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x47bd82"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "Snapshots"
+logicAddress = "0x81877FD282c951305B1D391b885B6fcbb3Bd9038"
+salt = "0x536e617073686f74730000000000000000000000000000000000000000000000"
+proxyAddress = "0x650e19c31a0dA630A39F5B23fAC14FA3442cCFaA"
+initCallData = "0x3ecc0f5e000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000028"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x37b7b3"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "StakingPositionDescriptor"
+logicAddress = "0xD93F462eaaC63D6E4D2b801A04c372525d0148c0"
+salt = "0x5374616b696e67506f736974696f6e44657363726970746f7200000000000000"
+proxyAddress = "0x050C0d960fca3887C04B412F4E12Ce1A8DB5f773"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x12e454"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "ValidatorPool"
+logicAddress = "0x988515a1F354AcEacD1f68bB1B6CdA735C37773A"
+salt = "0x56616c696461746f72506f6f6c00000000000000000000000000000000000000"
+proxyAddress = "0x84ED38E691EB57e6D2589d39b96AD81A9d5b0918"
+initCallData = "0x60a2da440000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000002000"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x4a03ea"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "ValidatorStaking"
+logicAddress = "0xf51f6A663c18E46879379a542F5EB87dD885F1A5"
+salt = "0x56616c696461746f725374616b696e6700000000000000000000000000000000"
+proxyAddress = "0xBE95A604BfB26Ff8D278F07fBe01D9648Ab3dcae"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x49fa4e"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "ETHDKGAccusations"
+logicAddress = "0x32f1023c03038Fbe2f172f6a4cDefFCCCDE47e3F"
+salt = "0x455448444b4741636375736174696f6e73000000000000000000000000000000"
+proxyAddress = "0x7fD7763925Ad54508fE1712738243F967d28321e"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x46101d"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "ETHDKGPhases"
+logicAddress = "0x2c62Da8ab6440A1B5097115000F346c9Db9D7D9C"
+salt = "0x455448444b475068617365730000000000000000000000000000000000000000"
+proxyAddress = "0xD62c37E0a4eBDEEdAF15EFB3E91Aa88B5a83fC75"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x36767a"
+
+[[dev.proxies]]
+factoryAddress = "0xE6AA28bfe5E390995Dc833594Fa6f54d65C824B1"
+logicName = "ETHDKG"
+logicAddress = "0xd2b96E0196131140fE7693d9F3A076dEBF877c4f"
+salt = "0x455448444b470000000000000000000000000000000000000000000000000000"
+proxyAddress = "0xBb038eB3cCFc31F067962075b690ebCbAAE6E2Ad"
+initCallData = "0xe4a3011600000000000000000000000000000000000000000000000000000000000000280000000000000000000000000000000000000000000000000000000000000006"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x3668bf"
+
+[[dev.proxies]]
+factoryAddress = "0x562E7F70E38B493CE0Ff0087663B230D7454a342"
+logicName = "ATokenBurner"
+logicAddress = "0x5188069F7dBF21849eF689418CfFF1F1Ec501d2E"
+salt = "0x41546f6b656e4275726e65720000000000000000000000000000000000000000"
+proxyAddress = "0x5d451913d43861b4282d5a66C554D7BcAfb125cf"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x074028"
+
+[[dev.proxies]]
+factoryAddress = "0x562E7F70E38B493CE0Ff0087663B230D7454a342"
+logicName = "ATokenMinter"
+logicAddress = "0x0FD67857eb5F3B4AE4926db5310A27bA6C3084f5"
+salt = "0x41546f6b656e4d696e7465720000000000000000000000000000000000000000"
+proxyAddress = "0xa52DE0E0aF614947D2339fA97Aa6d6575a60F69b"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x06af70"
+
+[[dev.proxies]]
+factoryAddress = "0x562E7F70E38B493CE0Ff0087663B230D7454a342"
+logicName = "Distribution"
+logicAddress = "0x3b14219b4e72d6C50A859D13070258e76aEd0243"
+salt = "0x446973747269627574696f6e0000000000000000000000000000000000000000"
+proxyAddress = "0x03536Ef53198FC6155Bd9c6188E6376374d91140"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x09b7f6"
+
+[[dev.proxies]]
+factoryAddress = "0x562E7F70E38B493CE0Ff0087663B230D7454a342"
+logicName = "Dynamics"
+logicAddress = "0xe1fB6Fa890d4b9d6eA97c9F0a2eeA160bdD31D83"
+salt = "0x44796e616d696373000000000000000000000000000000000000000000000000"
+proxyAddress = "0x47bedbFBFd3f4fcad6173A3481Ee9f295eA9963c"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x22c863"
+
+[[dev.proxies]]
+factoryAddress = "0x562E7F70E38B493CE0Ff0087663B230D7454a342"
+logicName = "Foundation"
+logicAddress = "0xD95C99cede0C90532A8BeFDBb4AF643013dDb534"
+salt = "0x466f756e646174696f6e00000000000000000000000000000000000000000000"
+proxyAddress = "0x02132859D8Ebf1791574ABb516fA6C61766fBF29"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x0bc9ca"
+
+[[dev.proxies]]
+factoryAddress = "0x562E7F70E38B493CE0Ff0087663B230D7454a342"
+logicName = "Governance"
+logicAddress = "0x89372564c1eb5B0db9AED6fa8bbE878AD30B44F8"
+salt = "0x476f7665726e616e636500000000000000000000000000000000000000000000"
+proxyAddress = "0x4eeD0263C7541607e6c4e94df4BAF366A4Bb06A7"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x04eda3"
+
+[[dev.proxies]]
+factoryAddress = "0x562E7F70E38B493CE0Ff0087663B230D7454a342"
+logicName = "InvalidTxConsumptionAccusation"
+logicAddress = "0x1Dc97b315E66E846B31094a51e6124C9de829B19"
+salt = "0x496e76616c69645478436f6e73756d7074696f6e41636375736174696f6e0000"
+proxyAddress = "0x62aa888e88297BA9FD101B02800Ab51807a17DEC"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x2d3d3f"
+
+[[dev.proxies]]
+factoryAddress = "0x562E7F70E38B493CE0Ff0087663B230D7454a342"
+logicName = "LiquidityProviderStaking"
+logicAddress = "0xa991B5c1b2c7aB8765bC5EE22e38ea65e8489980"
+salt = "0x4c697175696469747950726f76696465725374616b696e670000000000000000"
+proxyAddress = "0x67A7C8B0BDB7b7788e814b2D7CFa2991B288089A"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x47be7e"
+
+[[dev.proxies]]
+factoryAddress = "0x562E7F70E38B493CE0Ff0087663B230D7454a342"
+logicName = "MultipleProposalAccusation"
+logicAddress = "0x1F67eff044927b95e7DeD392BC8Ae5a760aEa484"
+salt = "0x4d756c7469706c6550726f706f73616c41636375736174696f6e000000000000"
+proxyAddress = "0x146A79C1854aB980d45AAaE95bC9d1016372E95c"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x16ba37"
+
+[[dev.proxies]]
+factoryAddress = "0x562E7F70E38B493CE0Ff0087663B230D7454a342"
+logicName = "PublicStaking"
+logicAddress = "0xcBB46397768226067e5511EfB027fccCe27B4250"
+salt = "0x5075626c69635374616b696e6700000000000000000000000000000000000000"
+proxyAddress = "0x22b4076CbA51000011e5F0394Fe86D48277c8A72"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x47bd5e"
+
+[[dev.proxies]]
+factoryAddress = "0x562E7F70E38B493CE0Ff0087663B230D7454a342"
+logicName = "Snapshots"
+logicAddress = "0xF9Ef3F745eAA18dCCc26C3739b9FA337011832CB"
+salt = "0x536e617073686f74730000000000000000000000000000000000000000000000"
+proxyAddress = "0x72CE453e18aD0e65e09cEA87684C94C872A754d2"
+initCallData = "0x3ecc0f5e000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000028"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x37b78f"
+
+[[dev.proxies]]
+factoryAddress = "0x562E7F70E38B493CE0Ff0087663B230D7454a342"
+logicName = "StakingPositionDescriptor"
+logicAddress = "0x91E96B43400D0bD847Ab7a5Bd429DBE24C815B17"
+salt = "0x5374616b696e67506f736974696f6e44657363726970746f7200000000000000"
+proxyAddress = "0xACD9fC553b926FC1C33AB88d83CD8fFB61878639"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x12e430"
+
+[[dev.proxies]]
+factoryAddress = "0x562E7F70E38B493CE0Ff0087663B230D7454a342"
+logicName = "ValidatorPool"
+logicAddress = "0x1e07FAefd41f01773EC40C625eC0E29aa31a97bE"
+salt = "0x56616c696461746f72506f6f6c00000000000000000000000000000000000000"
+proxyAddress = "0x0Fc715f3056219765833408d824251D4534f5Aca"
+initCallData = "0x60a2da440000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000002000"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x4a03c6"
+
+[[dev.proxies]]
+factoryAddress = "0x562E7F70E38B493CE0Ff0087663B230D7454a342"
+logicName = "ValidatorStaking"
+logicAddress = "0x2A1a9E45E214CE0A73659140b288BD266654d602"
+salt = "0x56616c696461746f725374616b696e6700000000000000000000000000000000"
+proxyAddress = "0x42f7Bbcb57B982A44565d20204bf9d993c763D5D"
+initCallData = "0x8129fc1c"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x49fa2a"
+
+[[dev.proxies]]
+factoryAddress = "0x562E7F70E38B493CE0Ff0087663B230D7454a342"
+logicName = "ETHDKGAccusations"
+logicAddress = "0xA02C6252A43857897Bb17494Dc456F47a5be9740"
+salt = "0x455448444b4741636375736174696f6e73000000000000000000000000000000"
+proxyAddress = "0xa74CD2a6a9a677387c19b5C72689Ed86339a7489"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x460ff9"
+
+[[dev.proxies]]
+factoryAddress = "0x562E7F70E38B493CE0Ff0087663B230D7454a342"
+logicName = "ETHDKGPhases"
+logicAddress = "0xE6d4b9DFFf2C15660d353Fd669F012a9dD937f07"
+salt = "0x455448444b475068617365730000000000000000000000000000000000000000"
+proxyAddress = "0xa32e2Df7CfcB55A8aEE5da300100554ca78073FB"
+initCallData = "0x"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x367662"
+
+[[dev.proxies]]
+factoryAddress = "0x562E7F70E38B493CE0Ff0087663B230D7454a342"
+logicName = "ETHDKG"
+logicAddress = "0x86C74f2704D18718203Ebf81F7CEFE604a138215"
+salt = "0x455448444b470000000000000000000000000000000000000000000000000000"
+proxyAddress = "0xf87Efc359346a198Ae4D2C56fc48534cD3E71B95"
+initCallData = "0xe4a3011600000000000000000000000000000000000000000000000000000000000000280000000000000000000000000000000000000000000000000000000000000006"
+
+[dev.proxies.gas]
+type = "BigNumber"
+hex = "0x36689b"
